@@ -98,7 +98,7 @@ page = option_menu(
 # --------------------DATA LOADING-----------------------------------------------#
 
 listings1 = pd.read_csv("notebooks/listings1_cleaned.csv")
-reviews = pd.read_csv("notebooks/reviews_cleaned.csv")
+#reviews = pd.read_csv("notebooks/reviews_cleaned.csv")
 #calendar = pd.read_csv("notebooks/calendar_cleaned.csv")
 neighbourhoods_geojson = gpd.read_file("https://data.insideairbnb.com/canada/qc/montreal/2024-03-23/visualisations/neighbourhoods.geojson")
 
