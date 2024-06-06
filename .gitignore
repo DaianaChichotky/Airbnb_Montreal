@@ -1,0 +1,8 @@
+# Ignorar la carpeta 'powerbi'
+PBI/
+
+# Ignorar la carpeta 'venv'
+venv/
+
+# Ignorar el archivo 'logs.log'
+logs.log

@@ -56,7 +56,7 @@ col1, col2, col3 = st.columns([3, 1, 3])
 
 with col2:
     
-    st.image("img\Airbnb_icon-removebg-preview.png", width=200)
+    st.image("img/Airbnb_icon-removebg-preview.png", width=200)
     
 st.markdown("<h1 style='text-align: center; margin-top: -40px; color:#FD676C;'>Análisis de alquileres en Montreal</h1>" ,unsafe_allow_html=True)
     
@@ -77,7 +77,7 @@ def add_bg_from_local(image_file):
         """,
         unsafe_allow_html=True
         )
-add_bg_from_local(r"img\background2.png")   
+add_bg_from_local(r"img/background2.png")   
 
     
 # ---------------------MENU-----------------------------------------------------# 
@@ -97,9 +97,9 @@ page = option_menu(
 
 # --------------------DATA LOADING-----------------------------------------------#
 
-listings1 = pd.read_csv("notebooks\listings1_cleaned.csv")
-reviews = pd.read_csv("notebooks\reviews_cleaned.csv")
-calendar = pd.read_csv("notebooks\calendar_cleaned.csv")
+listings1 = pd.read_csv("notebooks/listings1_cleaned.csv")
+reviews = pd.read_csv("notebooks/reviews_cleaned.csv")
+calendar = pd.read_csv("notebooks/calendar_cleaned.csv")
 neighbourhoods_geojson = gpd.read_file("https://data.insideairbnb.com/canada/qc/montreal/2024-03-23/visualisations/neighbourhoods.geojson")
 
 
@@ -171,7 +171,7 @@ if page =="Introducción":
 
     # --------------------SIDEBAR-------------------------------------#
 
-    st.sidebar.image('Modulo_2/Proyecto_Airbnb/img/background1.png', use_column_width=True)
+    st.sidebar.image('img/background1.png', use_column_width=True)
     st.sidebar.title("Filtros")
     st.sidebar.write('-------')
 
@@ -241,7 +241,7 @@ if page == "Análisis de barrios":
         st.markdown("<h5 style='text-align: left;'>¿Cómo es la distribución de los alojamientos de Airbnb en Montreal?</h5>", unsafe_allow_html=True)
         st.markdown('**Haz zoom en el mapa:**')
 
-        with open('Modulo_2/Proyecto_Airbnb/HTML/map1_barrios.html', 'r', encoding='utf-8') as f:
+        with open('./HTML/map1_barrios.html', 'r', encoding='utf-8') as f:
             html_content = f.read()
             st.components.v1.html(html_content, height=500)
 
@@ -249,7 +249,7 @@ if page == "Análisis de barrios":
 
         # Distribución de alojamientos
 
-        with open('Modulo_2/Proyecto_Airbnb/HTML/distribucion_alojamientos.html', 'r', encoding='utf-8') as f:
+        with open('./HTML/distribucion_alojamientos.html', 'r', encoding='utf-8') as f:
             html_content = f.read()
             st.components.v1.html(html_content, height=800)
 
@@ -262,7 +262,7 @@ if page == "Análisis de barrios":
         st.markdown("<h5 style='text-align: left;'>¿Cómo es la distribución de los precios promedio por noche para 2 personas en Montreal?</h5>", unsafe_allow_html=True)
         st.markdown('**Haz zoom en el mapa:**')
             
-        with open('Modulo_2/Proyecto_Airbnb/HTML/map2_prices.html', 'r', encoding='utf-8') as f:
+        with open('./HTML/map2_prices.html', 'r', encoding='utf-8') as f:
             html_content = f.read()
             st.components.v1.html(html_content, height=500)
 
@@ -272,7 +272,7 @@ if page == "Análisis de barrios":
         
         st.markdown('**El barrio con el precio promedio por noche para 2 personas más elevado es *Montréal-Nord*:**')
         
-        with open('Modulo_2/Proyecto_Airbnb/HTML/precio_barrio.html', 'r', encoding='utf-8') as f:
+        with open('./HTML/precio_barrio.html', 'r', encoding='utf-8') as f:
             html_content = f.read()
             st.components.v1.html(html_content, height=800)
        
@@ -288,7 +288,7 @@ if page == "Análisis de alojamientos":
 
         # Cantidad de ofertas por tipo de alojamiento
                 
-        with open('Modulo_2/Proyecto_Airbnb/HTML/room_type.html', 'r', encoding='utf-8') as f:
+        with open('./HTML/room_type.html', 'r', encoding='utf-8') as f:
             html_content = f.read()
             st.components.v1.html(html_content, height=500)
 
@@ -300,7 +300,7 @@ if page == "Análisis de alojamientos":
 
         # Cantidad de ofertas por número de huéspedes
          
-        with open('Modulo_2/Proyecto_Airbnb/HTML/accommodates.html', 'r', encoding='utf-8') as f:
+        with open('./HTML/accommodates.html', 'r', encoding='utf-8') as f:
             html_content = f.read()
             st.components.v1.html(html_content, height=500)
      
@@ -318,7 +318,7 @@ if page == "Análisis de disponibilidad":
         
         st.markdown("<h5 style='text-align: center;'>Mapa de calor con las zonas de mayor disponibilidad:</h5>", unsafe_allow_html=True)
 
-        with open('Modulo_2/Proyecto_Airbnb/HTML/map4_availability.html', 'r', encoding='utf-8') as f:
+        with open('./HTML/map4_availability.html', 'r', encoding='utf-8') as f:
              html_content = f.read()
              st.components.v1.html(html_content, height=700)
 
@@ -329,7 +329,7 @@ if page == "Análisis de disponibilidad":
         st.write("")
         st.write("")
         
-        with open('Modulo_2/Proyecto_Airbnb/HTML/availability_neigh.html', 'r', encoding='utf-8') as f:
+        with open('./HTML/availability_neigh.html', 'r', encoding='utf-8') as f:
             html_content = f.read()
             st.components.v1.html(html_content, height=700)
         
@@ -341,7 +341,7 @@ if page == "Análisis de disponibilidad":
         st.write("")
         st.write("")
         
-        with open('Modulo_2/Proyecto_Airbnb/HTML/availability_roomtype.html', 'r', encoding='utf-8') as f:
+        with open('./HTML/availability_roomtype.html', 'r', encoding='utf-8') as f:
             html_content = f.read()
             st.components.v1.html(html_content, height=700)
 
@@ -372,7 +372,7 @@ if page == "Análisis de precios":
 
         # Precio VS tipo de alojamiento
         
-        with open('Modulo_2/Proyecto_Airbnb/HTML/precio_roomtype.html', 'r', encoding='utf-8') as f:
+        with open('./HTML/precio_roomtype.html', 'r', encoding='utf-8') as f:
             html_content = f.read()
             st.components.v1.html(html_content, height = 500)
 
@@ -383,7 +383,7 @@ if page == "Análisis de precios":
 
         # Precio VS Huéspedes
 
-        with open('Modulo_2/Proyecto_Airbnb/HTML/precio_accommodates.html', 'r', encoding='utf-8') as f:
+        with open('./HTML/precio_accommodates.html', 'r', encoding='utf-8') as f:
             html_content = f.read()
             st.components.v1.html(html_content, height=700)
 
@@ -391,7 +391,7 @@ if page == "Análisis de precios":
          
         # Precio VS Número de dormitorios
 
-        with open('Modulo_2/Proyecto_Airbnb/HTML/precio_dormitorios.html', 'r', encoding='utf-8') as f:
+        with open('./HTML/precio_dormitorios.html', 'r', encoding='utf-8') as f:
             html_content = f.read()
             st.components.v1.html(html_content, height=700)
 
@@ -399,7 +399,7 @@ if page == "Análisis de precios":
 
         # Evolución de precios
     
-        with open('Modulo_2/Proyecto_Airbnb/HTML/grafico_price_evolution.html', 'r', encoding='utf-8') as f:
+        with open('./HTML/grafico_price_evolution.html', 'r', encoding='utf-8') as f:
             
             html_content = f.read()
             st.components.v1.html(html_content, height=500)
@@ -434,7 +434,7 @@ if page == "PowerBi Reseñas y Superhost":
             # Cambiar nombres de las variables
             
             variables = listings1[['host_response_rate', 'host_acceptance_rate',
-                       'host_listings_count', 'neighbourhood',
+                       'host_listings_count',
                        'accommodates', 'price', 'number_of_reviews', 'review_scores_rating',
                        'review_scores_cleanliness', 'review_scores_checkin',
                        'review_scores_communication', 'review_scores_location',
@@ -442,7 +442,6 @@ if page == "PowerBi Reseñas y Superhost":
     'host_response_rate': 'Respuesta del anfitrión',
     'host_acceptance_rate': 'Puntuación del anfitrión',
     'host_listings_count': 'Nº de listados por anfitrión',
-    'neighbourhood': 'Barrio',
     'accommodates': 'Nº de huéspedes',
     'price': 'Precio',
     'number_of_reviews': 'Nº de reseñas',
@@ -494,7 +493,7 @@ if page == "Gallery":
      
     # Sidebar:
      
-    st.sidebar.image('Modulo_2/Proyecto_Airbnb/img/sidebar2.jpg', use_column_width=True)
+    st.sidebar.image('./img/sidebar2.jpg', use_column_width=True)
     st.sidebar.title("Filtros")
     st.sidebar.write('-------')
 
@@ -636,7 +635,7 @@ if page == "Predicción de precios":
         st.markdown("<h6 style='text-align: left;'><b>Selecciona los filtros:</b></h6>", unsafe_allow_html=True)
 
         # Cargo el modelo 
-        model = load_model("Modulo_2//Proyecto_Airbnb//notebooks//airbnb_predictor")
+        model = load_model("notebooks/airbnb_predictor")
 
         # Campos de entrada
         neighbourhood = st.selectbox('Barrio',
