@@ -251,7 +251,7 @@ if page == "Análisis de barrios":
 
         with open('./HTML/distribucion_alojamientos.html', 'r', encoding='utf-8') as f:
             html_content = f.read()
-            st.components.v1.html(html_content, height=800)
+            st.components.v1.html(html_content, height=1000)
 
     # ----------------------- tab 2  ----------------------------------#
 
