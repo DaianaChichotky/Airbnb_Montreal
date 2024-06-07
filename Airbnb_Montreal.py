@@ -304,7 +304,7 @@ if page == "Análisis de alojamientos":
             html_content = f.read()
             st.components.v1.html(html_content, height=500)
      
-        st.markdown("<h4 style='text-align: center; margin-top: -10px;'>El 37.5 % de los alojamientos es para 2 huéspedes.</h4>", unsafe_allow_html=True)
+       # st.markdown("<h4 style='text-align: center; margin-top: -10px;'>El 37.5 % de los alojamientos es para 2 huéspedes.</h4>", unsafe_allow_html=True)
         
 ####################################  PAGE 4  ##########################################
 
