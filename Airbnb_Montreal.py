@@ -268,13 +268,13 @@ if page == "Análisis de barrios":
 
         st.markdown("<h5 style='text-align: left; '>A través del test estadístico de Skewness se comprueba que el precio del alojamiento no depende de su ubicación.</h5>", unsafe_allow_html=True)
         
-        # Precio por noche por barrio para 2 personas 
+        # Precio por noche por barrio  
         
         st.markdown('**El barrio con el precio promedio por noche más elevado es *Saint-Geneviève*:**')
         
         with open('./HTML/precio_barrio.html', 'r', encoding='utf-8') as f:
             html_content = f.read()
-            st.components.v1.html(html_content, height=800)
+            st.components.v1.html(html_content, height=1000)
        
   
 ####################################  PAGE 3  ##########################################
