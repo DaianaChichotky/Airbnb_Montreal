@@ -279,7 +279,7 @@ if page == "Análisis de barrios":
   
 ####################################  PAGE 3  ##########################################
 
-if page == "Análisis de alojamientos":
+if page == "Análisis de alojamientos":  
 
 
     col1, col2 = st.columns(2)
@@ -690,10 +690,9 @@ if page == "Predicción de precios":
             
             if st.button('Predecir precio'):
             
-            prediction = predict_model(model, data=input_data)
-            prediccion = prediction['prediction_label'][0].round(2)
-            
-            # st.markdown(f"<h3 style='text-align: center; margin-top: -20px; '> La predicción del precio por noche para el alojamiento es de {prediccion} $ </h3>", unsafe_allow_html=True)
+                prediction = predict_model(model, data=input_data)
+                prediccion = prediction['prediction_label'][0].round(2)
+                st.markdown(f"<h3 style='text-align: center; margin-top: -20px; '> La predicción del precio por noche para el alojamiento es de {prediccion} $ </h3>", unsafe_allow_html=True)
 
 
 ####################################  PAGE 9  ##########################################
