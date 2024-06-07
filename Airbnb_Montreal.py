@@ -361,10 +361,9 @@ if page == "Análisis de precios":
 
     st.markdown(centered_tabs_css, unsafe_allow_html=True)
      
-    tab1, tab2, tab3, tab4 = st.tabs([
+    tab1, tab2, tab3 = st.tabs([
         "Precio VS tipo de alojamiento",
         "Precio VS Huéspedes",
-        "Precio VS Número de dormitorios",
         "Evolución de precios"
         ])
       
@@ -388,14 +387,6 @@ if page == "Análisis de precios":
             st.components.v1.html(html_content, height=700)
 
     with tab3:
-         
-        # Precio VS Número de dormitorios
-
-        with open('./HTML/precio_dormitorios.html', 'r', encoding='utf-8') as f:
-            html_content = f.read()
-            st.components.v1.html(html_content, height=700)
-
-    with tab4:
 
         # Evolución de precios
     
