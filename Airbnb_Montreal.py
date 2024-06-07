@@ -86,7 +86,7 @@ add_bg_from_local(r"img/background2.png")
 page = option_menu(
     menu_title = None,
     options = ["Introducción", "Análisis de barrios", "Análisis de alojamientos", "Análisis de disponibilidad", "Análisis de precios",
-               "PowerBi Reseñas y Superhost", "Gallery", "Predicción de precios", "Conclusiones"], 
+               "PowerBi Reseñas y Superhost", "Galería", "Predicción de precios", "Conclusiones"], 
     icons=["info-circle", "pin", "house", "calendar-check", "coin", "bar-chart","camera","arrow-up-right", "check-circle"],
     default_index=0,
     orientation="horizontal",
