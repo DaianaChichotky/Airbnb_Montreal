@@ -373,7 +373,7 @@ if page == "Análisis de precios":
     
     with open('./HTML/precio_roomtype.html', 'r', encoding='utf-8') as f:
       html_content = f.read()
-      st.components.v1.html(html_content, height = 700)
+      st.components.v1.html(html_content, height = 500)
       st.markdown("<h4 style='text-align: center; margin-top: -50px;'>A través del método de Skewness puedo confirmar que el tipo de propiedad tiene un impacto significativo en el precio de la vivienda.</h4>", unsafe_allow_html=True)
 
   with tab2:
@@ -381,14 +381,14 @@ if page == "Análisis de precios":
     
     with open('./HTML/precio_accommodates.html', 'r', encoding='utf-8') as f:
       html_content = f.read()
-      st.components.v1.html(html_content, height=700)
+      st.components.v1.html(html_content, height=500)
 
   with tab3:
     # Evolución de precios
     
     with open('./HTML/grafico_price_evolution.html', 'r', encoding='utf-8') as f:
       html_content = f.read()
-      st.components.v1.html(html_content, height=700)
+      st.components.v1.html(html_content, height=500)
       st.markdown("<h4 style='text-align: center; margin-top: -50px;'> Los precios pueden variar según temporada y eventos locales.</h4>", unsafe_allow_html=True)
 
 
