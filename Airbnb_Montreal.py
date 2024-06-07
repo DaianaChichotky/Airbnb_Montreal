@@ -489,7 +489,7 @@ if page == "PowerBi Reseñas y Superhost":
 ####################################  PAGE 7  ##########################################
 
 
-if page == "Gallery":
+if page == "Galería":
      
     # Sidebar:
      
@@ -532,19 +532,19 @@ if page == "Gallery":
     
     # I create columns
 
-    col1, col2 = st.columns([3,2])
+    #col1, col2 = st.columns([3,2])
 
     # ------- Column 1 ------#
     
-    with col1:
+    #with col1:
         
         st.markdown("<h5 style='text-align: center; margin-top: -20px; color:#FD676C;'>Imágenes de algunos alojamientos seleccionados</h5>" ,unsafe_allow_html=True)
         
         # Mostrar imágenes filtradas
         
         if 'picture_url' in df_filtrado.columns and not df_filtrado.empty:
-            num_images = min(len(df_filtrado), 12)
-            images_per_row = 3
+            num_images = min(len(df_filtrado), 15)
+            images_per_row = 5
             rows = (num_images + images_per_row - 1) // images_per_row
             
             for i in range(rows):
@@ -565,7 +565,7 @@ if page == "Gallery":
 
     # ------- Column 2 ------#
 
-    with col2:
+    #with col2:
 
         # Elijo las columnas que me interesan del dataframe:
 
