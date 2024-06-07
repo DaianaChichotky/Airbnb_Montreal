@@ -357,7 +357,7 @@ if page == "Análisis de precios":
  #       justify-content: center;
  #   }
  #   </style>
-    """
+  #  """
 
    # st.markdown(centered_tabs_css, unsafe_allow_html=True)
      
