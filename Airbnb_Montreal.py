@@ -544,7 +544,7 @@ if page == "Galería":
         
         if 'picture_url' in df_filtrado.columns and not df_filtrado.empty:
             num_images = min(len(df_filtrado), 15)
-            images_per_row = 3
+            images_per_row = 2
             rows = (num_images + images_per_row - 1) // images_per_row
             
             for i in range(rows):
