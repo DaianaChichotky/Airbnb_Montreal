@@ -259,7 +259,7 @@ if page == "Análisis de barrios":
 
         # Mapa de precios
         
-        st.markdown("<h5 style='text-align: left;'>¿Cómo es la distribución de los precios promedio por noche para 2 personas en Montreal?</h5>", unsafe_allow_html=True)
+        st.markdown("<h5 style='text-align: left;'>¿Cómo es la distribución de los precios promedio por noche en Montreal?</h5>", unsafe_allow_html=True)
         st.markdown('**Haz zoom en el mapa:**')
             
         with open('./HTML/map2_prices.html', 'r', encoding='utf-8') as f:
@@ -270,7 +270,7 @@ if page == "Análisis de barrios":
         
         # Precio por noche por barrio para 2 personas 
         
-        st.markdown('**El barrio con el precio promedio por noche para 2 personas más elevado es *Montréal-Nord*:**')
+        st.markdown('**El barrio con el precio promedio por noche más elevado es *Saint-Geneviève*:**')
         
         with open('./HTML/precio_barrio.html', 'r', encoding='utf-8') as f:
             html_content = f.read()
