@@ -689,8 +689,10 @@ if page == "Predicción de precios":
         with col2:
             
             if st.button('Predecir precio'):
-                prediction = predict_model(model, data=input_data)
-                prediccion = prediction['prediction_label'][0].round(2)
+            
+            prediction = predict_model(model, data=input_data)
+            prediccion = prediction['prediction_label'][0].round(2)
+            
             st.markdown(f"<h3 style='text-align: center; margin-top: -20px; '> La predicción del precio por noche para el alojamiento es de {prediccion} $ </h3>", unsafe_allow_html=True)
 
 
