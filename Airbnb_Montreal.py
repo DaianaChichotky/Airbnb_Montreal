@@ -292,9 +292,9 @@ if page == "Análisis de alojamientos":
             html_content = f.read()
             st.components.v1.html(html_content, height=500)
 
-        st.write("- **82% Entire Home/Apartments**.")
-        st.write("- **17% Habitaciones privadas.**")
-        st.write("- **0.5% Habitaciones compartidas y hotel.**")
+        st.markdown("<h4 style='text-align: center; margin-top: -10px;'>82% Entire Home/Apartments.</h4>", unsafe_allow_html=True)
+        st.markdown("<h4 style='text-align: center; margin-top: -10px;'>17% Habitaciones privadas.</h4>", unsafe_allow_html=True)
+        st.markdown("<h4 style='text-align: center; margin-top: -10px;'>0.5% Habitaciones compartidas y hotel.</h4>", unsafe_allow_html=True)
 
     with col2:
 
