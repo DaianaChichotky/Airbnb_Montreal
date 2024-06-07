@@ -348,7 +348,7 @@ if page == "Análisis de disponibilidad":
 
 ####################################  PAGE 5  ##########################################
 
-if page == "Análisis de precios":
+if page == "Análisis de precios":  
 
  #   centered_tabs_css = """
  #   <style>
@@ -361,41 +361,43 @@ if page == "Análisis de precios":
 
    # st.markdown(centered_tabs_css, unsafe_allow_html=True)
      
-    tab1, tab2, tab3 = st.tabs([
-        "Precio VS tipo de alojamiento",
-        "Precio VS Huéspedes",
-        "Evolución de precios"
-        ])
-      
-    with tab1:
+  tab1, tab2, tab3 = st.tabs([
+  "Precio VS tipo de alojamiento",
+  "Precio VS Huéspedes",
+  "Evolución de precios"
+  ])
+  
+  with tab1:
+  
+  # Precio VS tipo de alojamiento
+  
+  with open('./HTML/precio_roomtype.html', 'r', encoding='utf-8') as f:
+  html_content = f.read()
+  st.components.v1.html(html_content, height = 700)
+  
+  st.markdown("<h4 style='text-align: center; margin-top: -50px;'>A través del método de Skewness puedo confirmar que el tipo de propiedad tiene un impacto significativo en el precio de la vivienda.</h4>", unsafe_allow_html=True)
 
-        # Precio VS tipo de alojamiento
-        
-        with open('./HTML/precio_roomtype.html', 'r', encoding='utf-8') as f:
-            html_content = f.read()
-            st.components.v1.html(html_content, height = 700)
 
-        st.markdown("<h4 style='text-align: center; margin-top: -50px;'>A través del método de Skewness puedo confirmar que el tipo de propiedad tiene un impacto significativo en el precio de la vivienda.</h4>", unsafe_allow_html=True)
+  with tab2:
 
+  # Precio VS Huéspedes
 
-    with tab2:
+  with open('./HTML/precio_accommodates.html', 'r', encoding='utf-8') as f:
+  html_content = f.read()
+  
+  st.components.v1.html(html_content, height=700)
 
-        # Precio VS Huéspedes
+  with tab3:
 
-        with open('./HTML/precio_accommodates.html', 'r', encoding='utf-8') as f:
-            html_content = f.read()
-            st.components.v1.html(html_content, height=700)
-
-    with tab3:
-
-        # Evolución de precios
+  # Evolución de precios
     
-        with open('./HTML/grafico_price_evolution.html', 'r', encoding='utf-8') as f:
-            
-            html_content = f.read()
-            st.components.v1.html(html_content, height=700)
+  with open('./HTML/grafico_price_evolution.html', 'r', encoding='utf-8') as f:
+  
+  html_content = f.read()
+  
+  st.components.v1.html(html_content, height=700)
 
-            st.markdown("<h4 style='text-align: center; margin-top: -50px;'> Los precios pueden variar según temporada y eventos locales.</h4>", unsafe_allow_html=True)
+  st.markdown("<h4 style='text-align: center; margin-top: -50px;'> Los precios pueden variar según temporada y eventos locales.</h4>", unsafe_allow_html=True)
 
 
 ####################################  PAGE 6  ##########################################
