@@ -9,7 +9,7 @@ Durante este proyecto haré el análisis exploratorio de datos aplicando técnic
 
 Resultados
 
-- Los resultados del análisis se encuentran en el archivo Analisis_Titanic.ipynb
+- Los resultados del análisis se encuentran en el archivo Airbnb_Montreal.ipynb
 
 App de Streamlit
 
