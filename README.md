@@ -1,4 +1,4 @@
-# 🏛️ Project: Airbnb Rental Analysis in Montreal 🏛️
+# 🏡 Project: Airbnb Rental Analysis in Montreal 🏡
 
 I am excited to share the outcome of my project completed during the data analysis bootcamp. 💻📊
 
