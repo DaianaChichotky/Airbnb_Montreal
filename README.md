@@ -1,6 +1,6 @@
 # 🏡 Project: Airbnb Rental Analysis in Montreal 🏡
 
-I am excited to share the outcome of my project completed during the data analysis bootcamp. 💻📊
+💻 I am excited to share the outcome of my project completed during the data analysis bootcamp. 
 
 I developed an interactive application using Streamlit, which allows users to explore and analyze Airbnb rental data in the city of Montreal. This tool provides a detailed view of various aspects such as prices, availability, and property features, among others.
 
