@@ -19,7 +19,7 @@ App de Streamlit
 Streamlit_recording.mp4
 
 <video width="640" height="360" controls autoplay loop muted>
-    <source src="Streamlit_recording.mp4" type="video/mp4">
+    <source src="https://github.com/DaianaChichotky/Airbnb_Montreal/blob/main/Streamlit_recording.mp4" type="video/mp4">
     Tu navegador no soporta la etiqueta de video.
 </video>
 
