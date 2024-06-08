@@ -10,9 +10,11 @@ I developed an interactive application using Streamlit, which allows users to ex
 
 ## The analysis included:
 
-- 🔧 Data preprocessing: Transformation of columns, handling missing values, and outliers.
-- 🌍 Exploratory Data Analysis (#EDA): Including the visualization of interactive maps using the folium and geopandas libraries.
-- 🤖 Implementation of machine learning models (regression models) to predict the prices of the listings.
+🔧 **Data preprocessing:** Transformation of columns, handling missing values, and outliers.
+
+🌍 **Exploratory Data Analysis (#EDA):** Including the visualization of interactive maps using the folium and geopandas libraries.
+
+🤖 **Implementation of machine learning models (regression models)** to predict the prices of the listings.
 
 This project allowed me to apply and consolidate my skills in Python, data analysis, and data visualization, as well as learn how to use tools like Streamlit to create interactive web applications.
 
