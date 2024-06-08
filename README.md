@@ -1,22 +1,24 @@
-# Airbnb Montreal
- Análisis de alquileres de Airbnb en Montreal.
+# Project: Airbnb Rental Analysis in Montreal 🏛️
 
-Durante este proyecto haré el análisis exploratorio de datos aplicando técnicas de análisis y visualización de datos:
+I am excited to share the outcome of my project completed during the data analysis bootcamp. 💻📊
 
-1. Exploraré el conjunto de datos para comprender la estructura, los tipos de variables presentes y cómo están distribuidas. Limpiaré y prepararé el conjunto de datos manipulando los datos para que sean más accesibles y útiles para el análisis. Esto incluye el trato de los valores faltantes, la conversión de tipos de datos y generación de nuevas variables a partir de las existentes.
+## 🌟 Project: Airbnb Rental Analysis in Montreal 🌟
 
-2. Analizaré el conjunto de datos: Extraeré información útil y significativa del conjunto de datos a través de diversas técnicas de análisis de datos. Visualización de los datos: Crearé gráficos y diagramas que ayuden a entender y comunicar los patrones y las relaciones presentes en los datos.
+I developed an interactive application using Streamlit, which allows users to explore and analyze Airbnb rental data in the city of Montreal. This tool provides a detailed view of various aspects such as prices, availability, and property features, among others.
 
-Resultados
+🔗 Link to the application: Airbnb Montreal · Streamlit (airbnb-montreal.streamlit.app)
 
-- Los resultados del análisis se encuentran en el archivo Airbnb_Montreal.ipynb
+## The analysis included:
 
-App de Streamlit
+🔧 Data preprocessing: Transformation of columns, handling missing values, and outliers.
+🌍 Exploratory Data Analysis (#EDA): Including the visualization of interactive maps using the folium and geopandas libraries.
+🤖 Implementation of machine learning models (regression models) to predict the prices of the listings.
 
-- Cree una app de Streamlit para visualizar los resultados del análisis. La app se encuentra en el archivo Airbnb_Montreal.py y se puede ejecutar con el comando streamlit run Airbnb_Montreal.py o a través del siguiente link:
-- https://airbnb-montreal.streamlit.app/
+This project allowed me to apply and consolidate my skills in Python, data analysis, and data visualization, as well as learn how to use tools like Streamlit to create interactive web applications.
+![image](https://github.com/DaianaChichotky/Airbnb_Montreal/assets/161124244/c046f5ff-90a3-4e5e-8441-1c8905914b96)
 
 <img src="Streamlit_recording.gif" alt="Texto alternativo" autoplay>
+
 
 
 
