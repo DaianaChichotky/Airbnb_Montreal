@@ -18,7 +18,6 @@ App de Streamlit
 
 <video width="640" height="360" controls autoplay loop muted>
     <source src="[https://github.com/usuario/repositorio/raw/main/ruta_al_archivo_del_video.mp4](https://github.com/DaianaChichotky/Airbnb_Montreal/blob/main/Streamlit_recording.mp4)" type="video/mp4">
-    Tu navegador no soporta la etiqueta de video.
 </video>
 
 
