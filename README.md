@@ -16,7 +16,7 @@ App de Streamlit
 - Cree una app de Streamlit para visualizar los resultados del análisis. La app se encuentra en el archivo Airbnb_Montreal.py y se puede ejecutar con el comando streamlit run Airbnb_Montreal.py o a través del siguiente link:
 - https://airbnb-montreal.streamlit.app/
 
-- [![Video de mi proyecto](img/Streamlit_pic.png)](https://www.youtube.com/watch?v=9eN68XAVTiY)
+- [![Video de mi proyecto](img/Streamlit_pic.png)](Recording_streamlit.gif)
 
 
 
