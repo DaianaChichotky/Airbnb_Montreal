@@ -4,7 +4,7 @@ I am excited to share the outcome of my project completed during the data analys
 
 I developed an interactive application using Streamlit, which allows users to explore and analyze Airbnb rental data in the city of Montreal. This tool provides a detailed view of various aspects such as prices, availability, and property features, among others.
 
-🔗 Link to the application: [airbnb-montreal.streamlit.app)](https://airbnb-montreal.streamlit.app/) 
+🔗 Link to the application: [airbnb-montreal.streamlit.app](https://airbnb-montreal.streamlit.app/) 
 
 ## The analysis included:
 
