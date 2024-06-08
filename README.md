@@ -16,5 +16,4 @@ App de Streamlit
 - Cree una app de Streamlit para visualizar los resultados del análisis. La app se encuentra en el archivo Airbnb_Montreal.py y se puede ejecutar con el comando streamlit run Airbnb_Montreal.py o a través del siguiente link:
 - https://airbnb-montreal.streamlit.app/
 
-- [![Watch the video](img/Streamlit_pic.png)]([demo_video.webm](https://uphubgrade-my.sharepoint.com/:v:/g/personal/daiana_chichotky_bootcamp-upgrade_com/EZ8bg2LBqRJMmgre7LykWE8BRCvcKRw8xiPXOxAxY3lTUg?e=HzSiOc&nav=eyJwbGF5YmFja09wdGlvbnMiOnt9LCJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbE1vZGUiOiJtaXMiLCJyZWZlcnJhbFZpZXciOiJwb3N0cm9sbC1jb3B5bGluayIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiI3OThhNTgxMC01OWRlLTQ2MjQtOTYzOS03ZTc1ZjkyYTI0YmUifX0%3D))
-
+[![Watch the video](img/Streamlit_pic.png)]([demo_video.webm](https://uphubgrade-my.sharepoint.com/:v:/g/personal/daiana_chichotky_bootcamp-upgrade_com/EZ8bg2LBqRJMmgre7LykWE8BRCvcKRw8xiPXOxAxY3lTUg?e=HzSiOc&nav=eyJwbGF5YmFja09wdGlvbnMiOnt9LCJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbE1vZGUiOiJtaXMiLCJyZWZlcnJhbFZpZXciOiJwb3N0cm9sbC1jb3B5bGluayIsInJlZmVycmFsUGxheWJhY2tTZXNzaW9uSWQiOiI3OThhNTgxMC01OWRlLTQ2MjQtOTYzOS03ZTc1ZjkyYTI0YmUifX0%3D))
